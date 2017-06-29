@@ -387,7 +387,7 @@ client.on('message', message => {
         }
 
     } else if (message.content.slice(0, 10) === '-pubghelp') {
-        message.channel.send("PUBG Stats Bot by AG7\nOnly retrieves OCE server statistics.\nCommands:\n```-pubghelp: Displays this help menu.\n-pubgadd 'name': Adds user 'name' to the leaderboards and stats retrieval.\n-pubgdel 'name': Removes user 'name' from the leaderboards and stats retrieval.\n-pubgstats 'name' 'stat': Retrieves 'stat' of user 'name'.\n-pubglb 'stat': Displays a leaderboard of 'stat' for all the registered members.\n\nAvalible Stats:\n    SoloKD, SoloRating, SoloWinRatio, SoloWinCount, SoloTotalRounds,\n    DuoKD, DuoRating, DuoWinRatio, DuoWinCount, DuoTotalRounds,\n    SquadKD, SquadRating, SquadWinRatio, SquadWinCount, SquadTotalRounds```\nFor suggestions, complaints and bug reports contact Jono (Verilos).")
+        message.channel.send("PUBG Stats Bot by AG7\nOnly retrieves OCE server statistics.\nCommands:\n```\n-pubghelp: Displays this help menu.\n-pubgadd 'name': Adds user 'name' to the leaderboards and stats retrieval.\n-pubgdel 'name': Removes user 'name' from the leaderboards and stats retrieval.\n-pubgstats 'name' 'stat': Retrieves 'stat' of user 'name'.\n-pubglb 'stat': Displays a leaderboard of 'stat' for all the registered members.\n\nAvalible Stats:\n    SoloKD, SoloRating, SoloWinRatio, SoloWinCount, SoloTotalRounds,\n    DuoKD, DuoRating, DuoWinRatio, DuoWinCount, DuoTotalRounds,\n    SquadKD, SquadRating, SquadWinRatio, SquadWinCount, SquadTotalRounds```\nFor suggestions, complaints and bug reports contact Jono (Verilos).")
 
     } else if (message.content.slice(0, 10) === '-pubgstats') {
         var nameandstat = message.content.slice(10).trim().toLowerCase();
