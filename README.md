@@ -1,2 +1,2 @@
 # PUBGBot
-A bot for AG7's PUBG Stats
+This repository contains the code I used to gather and display PUBG statistics on a Discord server.
